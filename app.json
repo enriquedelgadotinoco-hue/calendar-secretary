@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "calendar secretary",
+    "slug": "calendar-secretary",
+    "version": "1.0.0",
+    "scheme": "calendarsecretary",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.calendarsecretary.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.calendarsecretary.app",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_CALENDAR",
+        "android.permission.WRITE_CALENDAR"
+      ]
+    },
+    "plugins": [
+      "expo-camera",
+      "expo-image-picker",
+      "expo-calendar"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "07e5208a-bae2-4e2f-a5e2-b5f436679da8"
+      }
+    },
+    "owner": "enriquedelgado1985"
+  }
+}
